@@ -19,7 +19,7 @@ class ExcelTransformerTest {
 
         ExcelSheet sheet = transformer.transformModels("DoorDash", Lists.newArrayList(model));
 
-        assertTrue(sheet.getName().equals("DoorDash - data"));
+        assertTrue(sheet.getName().equals("DoorDash - Data"));
         assertHeaders(sheet);
         assertData(sheet);
     }
